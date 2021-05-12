@@ -1,3 +1,25 @@
+"""
+Mr. Ashok like to create a flight ticket booking application. To book a
+flight, user should enter his / her name, DOB, address and passport
+number followed by Start city, destination city and date of travel. Here are
+the constraints -
+1. Name should be all in upper case and it should be free from special
+characters or numbers. His application only allow names of length
+ranges from 5 to 30 max.
+2. DOB should be in a format of DD-MM-YYYY. Other formats not
+allowed.
+3. Passport number is only of 8 digits and should start with ‘P’
+followed by numbers.
+4. Start city and destination city should NOT be same. Here are the
+constraints -
+1. Start city / End city should be any one of these [ “Paris”,
+“Japan”, “China”]
+5. Date of travel should be in format [DD-MM-YYYY]
+ Write functions to validate all those above constraints and if all validations
+successful, return “Flight Ticket Booked”, else return respective error
+message. (Example: Invalid Passport number if passport number validation
+fails etc….)
+"""
 def userName():
     name = input("Enter your Name : ")
     if(name.isupper()):
