@@ -11,7 +11,7 @@ def numCheck(n):
     else:
         return "Neutral"
 
-n= eval(input(""))
+n = int(input(""))
 result = numCheck(n)
 print(result)
     
