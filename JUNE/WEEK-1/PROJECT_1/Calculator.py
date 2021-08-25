@@ -20,3 +20,4 @@ class Calcuator:
     def div(self,x,y):
         #returns quotient 
         return x/y
+    
