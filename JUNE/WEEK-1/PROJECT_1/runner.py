@@ -15,3 +15,4 @@ print("\n--> sum of {} and {} = {}".format(x,y,obj1.add(x,y)))
 print("--> difference of {} and {} = {}".format(x,y,obj1.sub(x,y)))
 print("--> product of {} and {} = {}".format(x,y,obj1.mul(x,y)))
 print("--> {} up on {} = {} 'or simply' {}".format(x,y,obj1.div(x,y),Fraction(x,y)))
+
