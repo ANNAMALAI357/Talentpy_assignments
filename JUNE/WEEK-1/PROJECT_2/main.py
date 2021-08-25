@@ -14,9 +14,18 @@ Create another file runner.py and import OperatingSystem class and call show_dir
 get_current_working_directory and copyFile methods.
 """
 
+import os
+import shutil
 class OperatingSystem:
-    def __init__(self ):
+    def __init__(self):
         pass
-
-    def show_directories(self, path):
-        pass
+    def show_directories(self):
+        Path = input("Enter the path to be searched: ")
+        return os.path.dirname(Path)
+    def get_current_directory(self):
+        current = os.getcwd()
+        return current
+    def copyFile(self):
+        source = input("enter the source of the file to be copied: ")
+        destination = input("enter the destination of the file: ")
+        return shutil.copyfile(source,destination)
